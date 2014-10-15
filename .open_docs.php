@@ -51,7 +51,7 @@ if (substr($commands["arg_1"], 0, 2) === "--") {
 }
 
 function openDocu ($lang) {
-	$file = "/Users/ndee/Development/docs/" . $lang . "_doc/index.html";
+	$file = "~/Development/docs/" . $lang . "_doc/index.html";
 	if (file_exists($file)) {
 		exec("open " . $file);
 	} else {

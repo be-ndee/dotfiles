@@ -5,15 +5,8 @@ alias apares='apasto; apasta'
 alias myssta='sudo /usr/local/mysql/support-files/mysql.server start'
 alias myssto='sudo /usr/local/mysql/support-files/mysql.server stop'
 alias mysres='sudo /usr/local/mysql/support-files/mysql.server restart'
-alias tomsta='/usr/local/apache-tomcat-8.0.5/bin/startup.sh'
-alias tomsto='/usr/local/apache-tomcat-8.0.5/bin/shutdown.sh'
-alias tomres='tomsto; tomsta'
 alias apalog='tail -f /var/log/apache2/access_log'
-alias go-dev='cd /Users/ndee/Development'
-alias go-lib='go-dev; cd libraries'
-alias go-apa='go-dev; cd apache_server'
 alias subl='/Applications/Sublime\ Text\ 2\.app/Contents/SharedSupport/bin/subl'
-alias jadoc='open -a Google\ Chrome /Users/ndee/Development/docs/java_doc/index.html'
 
 function docu () {
 	php ~/.dotfiles/.open_docs.php $1 $2 $3
