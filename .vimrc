@@ -12,11 +12,12 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugins go here
 Plugin 'valloric/youcompleteme'
 Plugin 'scrooloose/syntastic'
-Plugin 'scrooloose/nerdtree'
+"Plugin 'scrooloose/nerdtree'
 Plugin 'nvie/vim-flake8'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'evidens/vim-twig'
 Plugin 'tpope/vim-surround'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -90,8 +91,8 @@ set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ 
 " => NERDTree
 """""""""""""""""""""""""
 " Open on startup
-au VimEnter *  NERDTree
-let NERDTreeShowHidden=1
+"au VimEnter *  NERDTree
+"let NERDTreeShowHidden=1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions
