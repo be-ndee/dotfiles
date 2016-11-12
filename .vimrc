@@ -40,6 +40,7 @@ set ruler
 syntax enable
 set relativenumber
 nnoremap <C-n> :call NumberToggle()<cr>
+nnoremap ; :
 
 " Return to last edit position when opening files (You want this!)
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
