@@ -1,10 +1,6 @@
 # hyperkey alias
 alias hyper ctrl;shift;alt;cmd
 
-# Monitors
-alias mon-mba13 1440x900
-alias mon-home 1920x1080
-
 # Size aliases
 alias full move screenOriginX;screenOriginY screenSizeX;screenSizeY
 
@@ -13,9 +9,6 @@ alias righthalf move screenOriginX+screenSizeX/2;screenOriginY screenSizeX/2;scr
 
 alias uphalf move screenOriginX;screenOriginY screenSizeX;screenSizeY/2
 alias downhalf move screenOriginX;screenOriginY+screenSizeY/2 screenSizeX;screenSizeY/2
-
-# Layouts
-default home resolutions:${mon-mba13};${mon-home}
 
 # Grid
 bind g:${hyper} grid padding:5 0:10,6 1:10,6
@@ -30,12 +23,13 @@ bind up:${hyper} ${uphalf}
 bind down:${hyper} ${downhalf}
 
 # Applications
-bind s:${hyper} focus 'Safari'
+bind s:${hyper} focus 'Spotify'
 bind t:${hyper} focus 'iTerm2'
 bind a:${hyper} focus 'Atom'
 bind c:${hyper} focus 'Google Chrome'
 bind m:${hyper} focus 'Mail'
 bind f:${hyper} focus 'Finder'
+bind x:${hyper} focus 'Xcode'
 
 # Throw windows to other monitors
 bind 1:${hyper} throw 0 resize
