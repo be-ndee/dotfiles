@@ -5,4 +5,4 @@ make copy:
 	cp .tmux.conf ~/.tmux.conf
 	cp .vimrc ~/.vimrc
 	mkdir -p ~/.vim/
-	cp -r ftplugin/ ~/.vim/ftplugin/
+	cp -r .vim/ftplugin/ ~/.vim/ftplugin/
